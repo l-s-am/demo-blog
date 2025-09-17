@@ -6,13 +6,13 @@ export default function Home({ posts }) {
   return (
     <div className="container">
       <Head>
-        <title>Daily Blog</title>
+        <title>Ellis' Blog</title>
         <meta name="description" content="A blog built with Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="main-title">bumiing's rants</h1>
+        <h1 className="main-title">Ellis' Blog</h1>
 
         <div className="posts-list">
           {posts.map((post) => (
