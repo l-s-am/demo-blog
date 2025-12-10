@@ -28,4 +28,4 @@ npm run dev
 
 ### Demo
 
-Visit this [page](https://blog-liart-psi-39.vercel.app/)
+To view this demo version, please visit our [demo](https://ellis-demoblog.vercel.app/)
