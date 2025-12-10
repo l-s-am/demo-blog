@@ -9,7 +9,7 @@
 
 ```bash
 git clone <your-repo-url>
-cd blog
+cd demo-blog
 ```
 
 2. Install dependencies:

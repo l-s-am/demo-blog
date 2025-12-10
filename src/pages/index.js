@@ -1,5 +1,5 @@
 import { getAllPosts } from "../lib/posts";
-import { format } from "date-fns";
+import { format, parseISO } from "date-fns";
 import Head from "next/head";
 
 export default function Home({ posts }) {
@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           {posts.map((post) => (
             <div key={post.id} className="post-item">
               <span className="post-date">
-                {format(new Date(post.date), "MM/dd/yyyy")}
+                {format(parseISO(post.date), "MM/dd/yyyy")}
               </span>
               <a href={`/posts/${post.id}`} className="post-title">
                 {post.title}

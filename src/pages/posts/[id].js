@@ -1,5 +1,5 @@
 import { getAllPostIds, getPostById } from "../../lib/posts";
-import { format } from "date-fns";
+import { format, parseISO } from "date-fns";
 import Head from "next/head";
 
 export default function Post({ postData }) {
@@ -14,7 +14,7 @@ export default function Post({ postData }) {
         <header className="post-header">
           <h1 className="post-title">{postData.title}</h1>
           <div className="post-date">
-            {format(new Date(postData.date), "MM/dd/yyyy")}
+            {format(parseISO(postData.date), "MM/dd/yyyy")}
           </div>
         </header>
 
