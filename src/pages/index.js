@@ -6,13 +6,13 @@ export default function Home({ posts }) {
   return (
     <div className="container">
       <Head>
-        <title>Ellis' Blog</title>
+        <title>Blog Site Demo</title>
         <meta name="description" content="A blog built with Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="main-title">Ellis' Blog</h1>
+        <h1 className="main-title">Blog Site Demo</h1>
 
         <div className="posts-list">
           {posts.map((post) => (
@@ -27,6 +27,10 @@ export default function Home({ posts }) {
           ))}
         </div>
       </main>
+
+      <footer className="footer">
+        Made by <a href="https://github.com/ellis" target="_blank" rel="noopener noreferrer">Ellis</a>
+      </footer>
     </div>
   );
 }

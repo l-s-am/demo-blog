@@ -140,7 +140,7 @@ a {
 }
 
 .post-content code {
-  background-color: #f5f5f5;
+  background-color: #2d2d2d;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
@@ -148,7 +148,7 @@ a {
 }
 
 .post-content pre {
-  background-color: #f5f5f5;
+  background-color: #2d2d2d;
   padding: 1rem;
   border-radius: 5px;
   overflow-x: auto;
@@ -165,7 +165,7 @@ a {
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
-  color: #666;
+  color: #aaa;
 }
 
 .back-link {
@@ -181,6 +181,23 @@ a {
 }
 
 .back-link a:hover {
+  color: #e55a2b;
+}
+
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+.footer a {
+  color: #ff6b35;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
   color: #e55a2b;
 }
 
