@@ -27,10 +27,6 @@ export default function Post({ postData }) {
           <a href="/">← Back to all posts</a>
         </div>
       </article>
-
-      <footer className="footer">
-        Follow my <a href="https://instagram.com/ellis" target="_blank" rel="noopener noreferrer">IG</a>
-      </footer>
     </div>
   );
 }

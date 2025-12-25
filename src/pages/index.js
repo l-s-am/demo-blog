@@ -7,7 +7,10 @@ export default function Home({ posts }) {
     <div className="container">
       <Head>
         <title>Blog Site Demo</title>
-        <meta name="description" content="A blog built with Next.js" />
+        <meta
+          name="description"
+          content="A blog built by Ellis, but this is a demo version"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,10 +30,6 @@ export default function Home({ posts }) {
           ))}
         </div>
       </main>
-
-      <footer className="footer">
-        Made by <a href="https://github.com/ellis" target="_blank" rel="noopener noreferrer">Ellis</a>
-      </footer>
     </div>
   );
 }

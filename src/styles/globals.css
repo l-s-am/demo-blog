@@ -201,6 +201,30 @@ a {
   color: #e55a2b;
 }
 
+/* Shared fixed footer */
+.shared-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.shared-footer .container {
+  background-color: transparent;
+}
+
+.shared-footer-text {
+  font-size: 0.875rem;
+  color: rgba(255, 107, 53, 0.6);
+  text-align: right;
+  margin: 0;
+  background-color: transparent;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
@@ -228,5 +252,11 @@ a {
 
   .post-content {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .shared-footer {
+    padding: 1rem 0rem 0rem 20rem;
   }
 }
