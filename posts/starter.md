@@ -1,17 +1,19 @@
 ---
 title: "Getting Started"
-date: "2025-12-17"
+date: "2025-12-18"
 description: "How to run the blog locally and add new posts."
 ---
 
 ## Running Locally
 
 1. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 2. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -32,11 +34,13 @@ description: "How to run the blog locally and add new posts."
 ## Adding New Posts
 
 1. **Create a new markdown file** in the `posts/` directory:
+
    ```
    posts/my-post.md
    ```
 
 2. **Add front matter** at the top of the file:
+
    ```markdown
    ---
    title: "Your Post Title"
@@ -46,10 +50,11 @@ description: "How to run the blog locally and add new posts."
    ```
 
 3. **Write your content** below the front matter using markdown:
+
    ```markdown
    ## My Heading
 
-   Your content here. You can use **bold**, *italic*,
+   Your content here. You can use **bold**, _italic_,
    `code`, lists, and more.
    ```
 
@@ -63,8 +68,8 @@ description: "How to run the blog locally and add new posts."
 
 ## Front Matter Fields
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `title` | Yes | Displayed as the post title |
-| `date` | Yes | Format: `YYYY-MM-DD` |
-| `description` | Yes | Used for meta tags |
+| Field         | Required | Description                 |
+| ------------- | -------- | --------------------------- |
+| `title`       | Yes      | Displayed as the post title |
+| `date`        | Yes      | Format: `YYYY-MM-DD`        |
+| `description` | Yes      | Used for meta tags          |
